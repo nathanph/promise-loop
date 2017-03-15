@@ -6,6 +6,7 @@ iteration of the loop waits for the previous iteration to complete before
 continuing.
 
 ### `whilePromise(promise, predicate)`
+---------------------------------
 Calls promise until the predicate resolves to true.
 
 `promise`: a function that produces a Promise.  
