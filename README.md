@@ -37,7 +37,6 @@ whilePromise(promise, () => true).then(() => {
 ```
 
 ### `forPromise(promise, iterations)`
----------------------------------
 Calls `promise` until *n* iterations have completed, where *n* is `iterations`.
 This function is just a convenience wrapper around `whilePromise()` and works
 exactly as illustrated in the above example.
